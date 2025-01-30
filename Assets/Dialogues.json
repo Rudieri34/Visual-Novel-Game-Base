@@ -1,0 +1,213 @@
+{
+  "OldMan": [
+    {
+      "ID": 1,
+      "Next": 4,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Hey, finally someone taking care of this bar. I was dying for a beer. Haha, get it? 'Cause we're already dead... hahaha. Anyways, what are you doing here?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 5,
+      "Next": 6,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Wait, you mean you don't remember? But your soul is kinda white, never saw that before...",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 6,
+      "Next": 7,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Bah, don't mind me. You're the barman now, aren't you? Serve me a cold beer, please.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 7,
+      "Next": null,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Yeah that drain shoots something people like, and this bar outgrew some nasty and bitter plants, but that's exactly how beers taste like, why don't you train with those?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 8,
+      "Next": 9,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Ah, well not as expected, I can almost chew it... But somehow you'll come to what you need.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 9,
+      "Next": 10,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Oh, that reminds me, you need a payment don't you?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 10,
+      "Next": 11,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Look, we are dead, there's no currency, but people can still pay with help or information. For instance, I found this other roots that taste similar than the ones you have, but fells like they're burning your tongue.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 11,
+      "Next": 12,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "...And it's kinda lighter than the one you put on my beer.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 12,
+      "Next": 13,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Hahaha not that I'm blaming you man. But everything tastes better with some talk, don't you agree?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 13,
+      "Next": 14,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Why don't you help me with that? Most people will reveal more if you just make them enjoy their drinks.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 14,
+      "Next": 21,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 22,
+      "Next": 23,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Huh... So you don't really remember. That's also new, but well, who am I to judge hahaha. I can't either at this point.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 23,
+      "Next": 14,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "I just know we are in the soul realm, and you're very welcome. Just take care of your memories here... wait, I shouldn't talk about that haha forget it.",
+        "SPANISH": ""
+      }
+    }
+  ],
+  "Bar": [
+    {
+      "ID": 2,
+      "Next": 5,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "I was... hiding. Well, I'm not sure what's happening.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 3,
+      "Next": 5,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "...I don't really know, I just remember a cat dragging me.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 4,
+      "Next": 5,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "I think I'm a barman, it just felt... natural.",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 15,
+      "Next": 22,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Where are we exactly?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 16,
+      "Next": 24,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Why are you in here?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 17,
+      "Next": 25,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Have you said we were... dead?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 18,
+      "Next": 26,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "What do you mean I have a \"white soul\"?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 19,
+      "Next": 27,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "People need to rest?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 20,
+      "Next": 28,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "Is that everything you're gonna pay me with?",
+        "SPANISH": ""
+      }
+    },
+    {
+      "ID": 21,
+      "Next": 29,
+      "Effect": null,
+      "Languages": {
+        "ENGLISH": "\"Let him finish\"",
+        "SPANISH": ""
+      }
+    }
+  ]
+}

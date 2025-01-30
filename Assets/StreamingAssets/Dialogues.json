@@ -1,0 +1,161 @@
+{
+  "Dialogues": [
+    {
+      "ID": 1,
+      "Background": "ForestGreen",
+      "CharactersOnScreen": [ "Anna", "Bob" ],
+      "SpeakingCharacter": "Anna",
+      "Effect": "fadeIn",
+      "Languages": {
+        "ENGLISH": "Welcome to the forest!",
+        "SPANISH": "¡Bienvenido al bosque!"
+      },
+      "Responses": [
+        {
+          "Text": "Who are you?",
+          "NextDialogID": 2
+        },
+        {
+          "Text": "What is this place?",
+          "NextDialogID": 3
+        }
+      ],
+      "Next": -1
+    },
+    {
+      "ID": 2,
+      "Background": "ForestGreen",
+      "CharactersOnScreen": [ "Anna", "Bob" ],
+      "SpeakingCharacter": "Bob",
+      "Effect": "shake",
+      "Languages": {
+        "ENGLISH": "I'm Bob, nice to meet you!",
+        "SPANISH": "¡Soy Bob, encantado de conocerte!"
+      },
+      "Responses": [],
+      "Next": 4
+    },
+    {
+      "ID": 3,
+      "Background": "ForestGreen",
+      "CharactersOnScreen": [ "Anna" ],
+      "SpeakingCharacter": "Anna",
+      "Effect": "none",
+      "Languages": {
+        "ENGLISH": "This is a magical clearing.",
+        "SPANISH": "Este es un claro mágico."
+      },
+      "Responses": [],
+      "Next": 4
+    },
+    {
+      "ID": 4,
+      "Background": "ForestRed",
+      "CharactersOnScreen": [ "Anna", "Bob", "Elder" ],
+      "SpeakingCharacter": "Elder",
+      "Effect": "fadeIn",
+      "Languages": {
+        "ENGLISH": "Welcome to the village. You have much to learn.",
+        "SPANISH": "Bienvenido al pueblo. Tienes mucho que aprender."
+      },
+      "Responses": [
+        {
+          "Text": "How can I learn?",
+          "NextDialogID": 5
+        },
+        {
+          "Text": "Why am I here?",
+          "NextDialogID": 6
+        }
+      ],
+      "Next": -1
+    },
+    {
+      "ID": 5,
+      "Background": "ForestRed",
+      "CharactersOnScreen": [ "Anna", "Elder" ],
+      "SpeakingCharacter": "Elder",
+      "Effect": "none",
+      "Languages": {
+        "ENGLISH": "Head to the library and study the ancient texts.",
+        "SPANISH": "Dirígete a la biblioteca y estudia los textos antiguos."
+      },
+      "Responses": [],
+      "Next": 7
+    },
+    {
+      "ID": 6,
+      "Background": "ForestGreen",
+      "CharactersOnScreen": [ "Anna" ],
+      "SpeakingCharacter": "Anna",
+      "Effect": "fadeOut",
+      "Languages": {
+        "ENGLISH": "You were chosen to protect this place.",
+        "SPANISH": "Fuiste elegido para proteger este lugar."
+      },
+      "Responses": [],
+      "Next": 7
+    },
+    {
+      "ID": 7,
+      "Background": "ForestGreen",
+      "CharactersOnScreen": [ "Anna", "Guardian" ],
+      "SpeakingCharacter": "Guardian",
+      "Effect": "zoom",
+      "Languages": {
+        "ENGLISH": "Only the brave may pass through the cave.",
+        "SPANISH": "Solo los valientes pueden pasar por la cueva."
+      },
+      "Responses": [
+        {
+          "Text": "I am brave!",
+          "NextDialogID": 8
+        },
+        {
+          "Text": "I need more time.",
+          "NextDialogID": 9
+        }
+      ],
+      "Next": -1
+    },
+    {
+      "ID": 8,
+      "Background": "ForestGreen",
+      "CharactersOnScreen": [ "Anna", "Guardian" ],
+      "SpeakingCharacter": "Guardian",
+      "Effect": "none",
+      "Languages": {
+        "ENGLISH": "Then prove your courage in the trials ahead!",
+        "SPANISH": "¡Entonces prueba tu valentía en las pruebas que vienen!"
+      },
+      "Responses": [],
+      "Next": 10
+    },
+    {
+      "ID": 9,
+      "Background": "ForestRed",
+      "CharactersOnScreen": [ "Anna", "Bob" ],
+      "SpeakingCharacter": "Bob",
+      "Effect": "fadeIn",
+      "Languages": {
+        "ENGLISH": "Take your time and prepare for the challenges.",
+        "SPANISH": "Tómate tu tiempo y prepárate para los desafíos."
+      },
+      "Responses": [],
+      "Next": 10
+    },
+    {
+      "ID": 10,
+      "Background": "ForestRed",
+      "CharactersOnScreen": [ "Anna", "Elder" ],
+      "SpeakingCharacter": "Elder",
+      "Effect": "pan",
+      "Languages": {
+        "ENGLISH": "You have reached the peak of your journey. The real challenge begins now.",
+        "SPANISH": "Has alcanzado la cima de tu viaje. El verdadero desafío comienza ahora."
+      },
+      "Responses": [],
+      "Next": -1
+    }
+  ]
+}
