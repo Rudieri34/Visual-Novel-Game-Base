@@ -77,8 +77,8 @@ public class VisualNovelScreenController : MonoBehaviour
         {
             if (!characters.Contains(character.Name))
             {
-                character.CharacterPrefab.transform.DOScale(new Vector3(0, 0, 1), .2f);
-                await UniTask.Delay(200);
+                //character.CharacterPrefab.transform.DOScale(new Vector3(0, 0, 1), .2f);
+                //await UniTask.Delay(200);
                 Destroy(character.CharacterPrefab);
                 _currentCharacters.Remove(character);
             }
