@@ -260,6 +260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4038050659114938454, guid: f1fc7acbb635ed445be8d63fd9feebb5, type: 3}
+      propertyPath: _sfxClips.Array.data[0].audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 610f9e2f84b0c894a94190b0bbad70f7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1fc7acbb635ed445be8d63fd9feebb5, type: 3}
 --- !u!1 &1238959227
@@ -536,13 +540,25 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4286414205
       objectReference: {fileID: 0}
+    - target: {fileID: 4137899861425833226, guid: 3c35c74f9f5b3564394b2eba413a5366, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1c247ca643c580040903bdc264da19cf, type: 3}
+    - target: {fileID: 4137899861425833269, guid: 3c35c74f9f5b3564394b2eba413a5366, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 458.7601
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137899861425833269, guid: 3c35c74f9f5b3564394b2eba413a5366, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 458.7601
+      objectReference: {fileID: 0}
     - target: {fileID: 4137899861425833269, guid: 3c35c74f9f5b3564394b2eba413a5366, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -374.48
       objectReference: {fileID: 0}
     - target: {fileID: 4137899861425833269, guid: 3c35c74f9f5b3564394b2eba413a5366, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -101.380066
       objectReference: {fileID: 0}
     - target: {fileID: 4137899862226794696, guid: 3c35c74f9f5b3564394b2eba413a5366, type: 3}
       propertyPath: m_RenderMode

@@ -20,7 +20,7 @@ public class Dialog
 [System.Serializable]
 public class Response
 {
-    public string Text; // Texto da resposta
+    public LanguageOptions Languages; // Textos em diferentes idiomas
     public int NextDialogID; // ID do próximo diálogo
 }
 
@@ -28,7 +28,7 @@ public class Response
 public class LanguageOptions
 {
     public string ENGLISH;
-    public string SPANISH;
+    public string PORTUGUESE;
 }
 
 [System.Serializable]
@@ -86,7 +86,7 @@ public class VisualNovelGameplayManager : MonoBehaviour
             _visualNovelScreen.SetCharacters(mainDialog.CharactersOnScreen, mainDialog.SpeakingCharacter);
 
             string dialogText = GetLanguageText(mainDialog.Languages);
-            await _visualNovelScreen.ShowDialogText($"{mainDialog.SpeakingCharacter}: {dialogText}", mainDialog.SpeakingCharacter);
+            await _visualNovelScreen.ShowDialogText($"{dialogText}", mainDialog.SpeakingCharacter);
 
             if (mainDialog.Responses != null && mainDialog.Responses.Count > 0)
             {
@@ -98,6 +98,8 @@ public class VisualNovelGameplayManager : MonoBehaviour
                 await UniTask.WaitUntil(() => Input.anyKeyDown);
                 ShowDialogAsync(mainDialog.Next);
             }
+            else
+                _visualNovelScreen.HideDialogText();
         }
         else
         {
@@ -111,7 +113,7 @@ public class VisualNovelGameplayManager : MonoBehaviour
 
         for (int i = 0; i < responses.Count; i++)
         {
-            _visualNovelScreen.ShowOption(i + 1, responses[i].Text);
+            _visualNovelScreen.ShowOption(i + 1, GetLanguageText(responses[i].Languages));
         }
 
         int selectedOption = await _visualNovelScreen.GetPlayerChoiceAsync();
@@ -125,7 +127,7 @@ public class VisualNovelGameplayManager : MonoBehaviour
             case "ENGLISH":
                 return languages.ENGLISH ?? "Text not available";
             case "SPANISH":
-                return languages.SPANISH ?? "Texto no disponible";
+                return languages.PORTUGUESE ?? "Texto no disponible";
             default:
                 return "Language not supported";
         }

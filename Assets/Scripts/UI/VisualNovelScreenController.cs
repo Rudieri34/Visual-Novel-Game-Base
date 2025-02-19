@@ -28,7 +28,7 @@ public class VisualNovelScreenController : MonoBehaviour
 {
 
     [Header("Dialog Screen:")]
-    [SerializeField] private GameObject _dialogScreen;
+    [SerializeField] private GameObject _dialogBubble;
     [SerializeField] private TMP_Text _characterName;
     [SerializeField] private TMP_Text _dialogText;
     private bool _isDialogOngoing;
@@ -146,7 +146,7 @@ public class VisualNovelScreenController : MonoBehaviour
     {
         _characterName.text = characterName;
         _dialogText.text = "";
-        _dialogScreen.SetActive(true);
+        _dialogBubble.transform.DOScale(new Vector3(1, 1, 1), .2f);
         await SetDialogText(dialog);
     }
 
@@ -154,7 +154,7 @@ public class VisualNovelScreenController : MonoBehaviour
     {
         _characterName.text = "";
         _dialogText.text = "";
-        _dialogScreen.SetActive(false);
+        _dialogBubble.transform.DOScale(new Vector3(0, 0, 0), .2f);
     }
     async Task SetDialogText(string fullText)
     {

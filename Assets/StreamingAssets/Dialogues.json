@@ -2,160 +2,136 @@
   "Dialogues": [
     {
       "ID": 1,
-      "Background": "ForestGreen",
-      "CharactersOnScreen": [ "Anna", "Bob" ],
-      "SpeakingCharacter": "Anna",
-      "Effect": "fadeIn",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [],
+      "SpeakingCharacter": "Narrator",
+      "Effect": null,
       "Languages": {
-        "ENGLISH": "Welcome to the forest!",
-        "SPANISH": "¡Bienvenido al bosque!"
+        "ENGLISH": "The aroma of freshly brewed coffee fills the air. The wooden walls of the café give a rustic and cozy charm. It's the first day of business in White Crow, and the snow-capped mountains outside create the perfect atmosphere.",
+        "PORTUGUESE": "O aroma de café recém-preparado preenche o ar. As paredes de madeira do café dão um charme rústico e aconchegante. É o primeiro dia de negócios em White Crow, e as montanhas cobertas de neve lá fora criam a atmosfera perfeita."
       },
-      "Responses": [
-        {
-          "Text": "Who are you?",
-          "NextDialogID": 2
-        },
-        {
-          "Text": "What is this place?",
-          "NextDialogID": 3
-        }
-      ],
-      "Next": -1
+      "Responses": [],
+      "Next": 2
     },
     {
       "ID": 2,
-      "Background": "ForestGreen",
-      "CharactersOnScreen": [ "Anna", "Bob" ],
-      "SpeakingCharacter": "Bob",
-      "Effect": "shake",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [],
+      "SpeakingCharacter": "Player",
+      "Effect": null,
       "Languages": {
-        "ENGLISH": "I'm Bob, nice to meet you!",
-        "SPANISH": "¡Soy Bob, encantado de conocerte!"
+        "ENGLISH": "Alright, everything seems ready. Just need to wait for my first customers...",
+        "PORTUGUESE": "Certo, tudo parece pronto. Só preciso esperar pelos primeiros clientes..."
       },
       "Responses": [],
-      "Next": 4
+      "Next": 3
     },
     {
       "ID": 3,
-      "Background": "ForestGreen",
-      "CharactersOnScreen": [ "Anna" ],
-      "SpeakingCharacter": "Anna",
-      "Effect": "none",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [ "Bea" ],
+      "SpeakingCharacter": "Bea",
+      "Effect": "DoorBellRings",
       "Languages": {
-        "ENGLISH": "This is a magical clearing.",
-        "SPANISH": "Este es un claro mágico."
+        "ENGLISH": "Hello! Oh, this place is really charming! You must be the new owner?",
+        "PORTUGUESE": "Olá! Ah, esse lugar é realmente charmoso! Você deve ser o novo dono?"
       },
-      "Responses": [],
+      "Responses": [
+        {
+          "Languages": {
+            "ENGLISH": "Yes, welcome! Have a seat!",
+            "PORTUGUESE": "Sim, bem-vinda! Pode se sentar!"
+          },
+          "NextDialogID": 4
+        }
+      ],
       "Next": 4
     },
     {
       "ID": 4,
-      "Background": "ForestRed",
-      "CharactersOnScreen": [ "Anna", "Bob", "Elder" ],
-      "SpeakingCharacter": "Elder",
-      "Effect": "fadeIn",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [ "Bea" ],
+      "SpeakingCharacter": "Bea",
+      "Effect": null,
       "Languages": {
-        "ENGLISH": "Welcome to the village. You have much to learn.",
-        "SPANISH": "Bienvenido al pueblo. Tienes mucho que aprender."
+        "ENGLISH": "I’m Bea. I live here in White Crow. I paint landscapes, but lately... my paintings have been a little different...",
+        "PORTUGUESE": "Eu sou Bea. Moro aqui em White Crow. Pinto paisagens, mas ultimamente... minhas pinturas têm sido um pouco diferentes..."
       },
       "Responses": [
         {
-          "Text": "How can I learn?",
+          "Languages": {
+            "ENGLISH": "Different? How so?",
+            "PORTUGUESE": "Diferentes? Como assim?"
+          },
           "NextDialogID": 5
-        },
-        {
-          "Text": "Why am I here?",
-          "NextDialogID": 6
         }
       ],
-      "Next": -1
+      "Next": 5
     },
     {
       "ID": 5,
-      "Background": "ForestRed",
-      "CharactersOnScreen": [ "Anna", "Elder" ],
-      "SpeakingCharacter": "Elder",
-      "Effect": "none",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [ "Bea" ],
+      "SpeakingCharacter": "Bea",
+      "Effect": null,
       "Languages": {
-        "ENGLISH": "Head to the library and study the ancient texts.",
-        "SPANISH": "Dirígete a la biblioteca y estudia los textos antiguos."
+        "ENGLISH": "Oh, you know, sometimes inspiration takes us to unexpected places. But never mind that! How are you finding White Crow so far?",
+        "PORTUGUESE": "Ah, sabe como é, às vezes a inspiração nos leva a lugares inesperados. Mas deixa pra lá! Como você está achando White Crow até agora?"
       },
       "Responses": [],
-      "Next": 7
+      "Next": 6
     },
     {
       "ID": 6,
-      "Background": "ForestGreen",
-      "CharactersOnScreen": [ "Anna" ],
-      "SpeakingCharacter": "Anna",
-      "Effect": "fadeOut",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [ "Bea", "Caio" ],
+      "SpeakingCharacter": "Caio",
+      "Effect": "DoorBellRings",
       "Languages": {
-        "ENGLISH": "You were chosen to protect this place.",
-        "SPANISH": "Fuiste elegido para proteger este lugar."
+        "ENGLISH": "Hey! Looks like we’ve got a new meeting place in town. I’m Caio, the park ranger. I take it you’re the owner?",
+        "PORTUGUESE": "Ei! Parece que temos um novo ponto de encontro na cidade. Sou Caio, o guarda-florestal. Imagino que você seja o dono?"
       },
       "Responses": [],
       "Next": 7
     },
     {
       "ID": 7,
-      "Background": "ForestGreen",
-      "CharactersOnScreen": [ "Anna", "Guardian" ],
-      "SpeakingCharacter": "Guardian",
-      "Effect": "zoom",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [ "Caio", "Bea" ],
+      "SpeakingCharacter": "Bea",
+      "Effect": null,
       "Languages": {
-        "ENGLISH": "Only the brave may pass through the cave.",
-        "SPANISH": "Solo los valientes pueden pasar por la cueva."
+        "ENGLISH": "Caio knows everything about the trails and forests around here. If you ever want an adventure, he’s the guy to talk to.",
+        "PORTUGUESE": "Caio sabe tudo sobre as trilhas e florestas daqui. Se quiser uma aventura, ele é a pessoa certa pra falar."
       },
-      "Responses": [
-        {
-          "Text": "I am brave!",
-          "NextDialogID": 8
-        },
-        {
-          "Text": "I need more time.",
-          "NextDialogID": 9
-        }
-      ],
-      "Next": -1
+      "Responses": [],
+      "Next": 8
     },
     {
       "ID": 8,
-      "Background": "ForestGreen",
-      "CharactersOnScreen": [ "Anna", "Guardian" ],
-      "SpeakingCharacter": "Guardian",
-      "Effect": "none",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [ "Caio" ],
+      "SpeakingCharacter": "Caio",
+      "Effect": null,
       "Languages": {
-        "ENGLISH": "Then prove your courage in the trials ahead!",
-        "SPANISH": "¡Entonces prueba tu valentía en las pruebas que vienen!"
+        "ENGLISH": "Speaking of which, the weather’s been unpredictable. Hopefully, it won’t affect tourism too much.",
+        "PORTUGUESE": "Falando nisso, o tempo anda imprevisível. Espero que isso não afete muito o turismo."
       },
       "Responses": [],
-      "Next": 10
+      "Next": 9
     },
     {
       "ID": 9,
-      "Background": "ForestRed",
-      "CharactersOnScreen": [ "Anna", "Bob" ],
-      "SpeakingCharacter": "Bob",
-      "Effect": "fadeIn",
+      "Background": "CafeInterior",
+      "CharactersOnScreen": [ "Bea" ],
+      "SpeakingCharacter": "Bea",
+      "Effect": null,
       "Languages": {
-        "ENGLISH": "Take your time and prepare for the challenges.",
-        "SPANISH": "Tómate tu tiempo y prepárate para los desafíos."
+        "ENGLISH": "Tourists love the winter scenery. But White Crow is beautiful year-round.",
+        "PORTUGUESE": "Os turistas adoram a paisagem de inverno. Mas White Crow é linda o ano todo."
       },
       "Responses": [],
       "Next": 10
-    },
-    {
-      "ID": 10,
-      "Background": "ForestRed",
-      "CharactersOnScreen": [ "Anna", "Elder" ],
-      "SpeakingCharacter": "Elder",
-      "Effect": "pan",
-      "Languages": {
-        "ENGLISH": "You have reached the peak of your journey. The real challenge begins now.",
-        "SPANISH": "Has alcanzado la cima de tu viaje. El verdadero desafío comienza ahora."
-      },
-      "Responses": [],
-      "Next": -1
     }
   ]
 }
